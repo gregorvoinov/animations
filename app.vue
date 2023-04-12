@@ -1,4 +1,5 @@
 <template>
+ 
   <div class="">
     <section class="h-screen bg-slate-50 p-10 flex justify-center items-center">
       <TextRevealEffect :autoplay="false" :startAnimation="revealHeading">
