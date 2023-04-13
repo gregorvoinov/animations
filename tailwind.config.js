@@ -30,6 +30,11 @@ module.exports = {
         'navi-blue': '#050F26',
         coral: '#ED8880',
         'steel-gray': '#676C73'
+      },
+      aspectRatio: {
+        '5/4': '5 / 4',
+        '16/10': '16 / 10',
+        '4/3': '4 / 3',
       }
     },
   },
