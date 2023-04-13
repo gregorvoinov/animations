@@ -2,7 +2,7 @@
     <section class="container">
         <scale-reveal-effect>
             <ImgRevelEffect class="aspect-video z-10 relative">
-                <img src="img4.jpg" alt="" class="w-full h-full object-cover absolute" >
+                <img src="/img4.jpg" alt="" class="w-full h-full object-cover absolute" >
             </ImgRevelEffect>
             <!-- <ImgRevelEffect class="aspect-video z-10 relative"> -->
             <div id="contact-box" class="bg-navi-blue px-12 pt-12 pb-24 text-white">
