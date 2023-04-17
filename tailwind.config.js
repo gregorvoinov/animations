@@ -1,6 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: [
+    "./components/**/*.{js,vue,ts}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./nuxt.config.{js,ts}",
+    "./error.vue",
+  ],
   theme: {
     container: {
       center: true,
@@ -27,9 +34,13 @@ module.exports = {
     },
     extend: {
       colors: {
-        'navi-blue': '#050F26',
+        'navi-blue': '#0A1B40',
+        'navi-blue-dark': '#050F26',
         coral: '#ED8880',
-        'steel-gray': '#676C73'
+        'steel-gray': '#676C73',
+        'gray-dark': '#676C73',
+        'black-gray': '#222222',
+        'silver': '#808285'
       },
       aspectRatio: {
         '5/4': '5 / 4',

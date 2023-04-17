@@ -17,9 +17,9 @@
     let img = null
 
     onMounted(() => {
-        const slots = useSlots()
+        // const slots = useSlots()
         //get first node
-        img = slots.default()[0].el
+        img = wrapper.value.querySelectorAll('img')
 
         gsap.fromTo(wrapper.value, 
             {

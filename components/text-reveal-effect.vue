@@ -1,9 +1,11 @@
 <template lang="">
-    <slot />
+    <div ref="wrapper">
+        <slot />
+    </div>
 </template>
 <script setup>
     import { splitText } from "~/composables/split-text";
-    import { useSlots } from 'vue'
+    // import { useSlots } from 'vue'
     import gsap from 'gsap';
     import { ScrollTrigger } from 'gsap/ScrollTrigger'
     gsap.registerPlugin(ScrollTrigger)
@@ -20,6 +22,7 @@
     })
     // root element
     let el = null
+    const wrapper = ref(null)
 
     watch(
         () => props.startAnimation,
@@ -29,10 +32,13 @@
     )    
 
     onMounted(() => {
-        const slots = useSlots()
+
+        // const slots = useSlots()
         //get first node
-        el = slots.default()[0].el
-        //splitt text to single lines
+        // el = slots.default()[0].el
+        // el = slots.default()[0].el
+        el = wrapper.value.children[0]
+        // splitt text to single lines
         splitText({el, type: 'lines'})
         // hide heading
         const spans = el.querySelectorAll('span')

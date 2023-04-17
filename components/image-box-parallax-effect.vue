@@ -4,30 +4,34 @@
     </div>
 </template>
 <script setup>
-    import { useSlots } from 'vue'
+    // import { useSlots } from 'vue'
     import gsap from 'gsap';
     import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
     gsap.registerPlugin(ScrollTrigger)
 
+    const props = defineProps({
+        overflowY: {
+            type: Number,
+            default: 200
+        }
+    })
    // root element
    const wrapper = ref(null)
     // img
     let img = null
 
-    const overflowY = 200
-
     onMounted(() => {
         let img_height = wrapper.value.clientHeight
-        const slots = useSlots()
-        img = slots.default()[0].el
-        img_height = img_height + overflowY
+        // const slots = useSlots()
+        img = wrapper.value.children[0]
+        img_height = img_height + props.overflowY
         img.style.height = `${img_height}px`
         console.log(img_height)
 
         gsap.to(img, {
             ease: 'power1',
-            y:`-${overflowY}px`,
+            y:`-${props.overflowY}px`,
             scrollTrigger: {
                 trigger: wrapper.value,
                 start: "top bottom",
