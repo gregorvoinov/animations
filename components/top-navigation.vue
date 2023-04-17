@@ -68,11 +68,11 @@
                     </span>
                 </div> 
                     <a href="/" data-kontent-item-id="6c5d136a-14b4-49ed-ab57-ff4a622f16b3" data-kontent-element-codename="enquirysettings" class=" min-w-32 bg-navi-blue tracking-wider lg:flex group flex justify-center items-center transition-colors leading-close duration-200 ease-out relative font-hurme text-sm uppercase text-white bg-blue-base  h-11 px-3.5"><!----><span class="block pt-0.5">Enquiry?</span><!----></a></div> <div data-kontent-item-id="d25a2c26-3908-4293-979c-c5849d734b30" data-kontent-element-codename="menusettings" class="mt-3 hidden items-center justify-center gap-6 lg:flex">
-                    <nuxt-link to="/charter">Charter</nuxt-link>
-                    <a href="/" class="nav-link uppercase">Buy</a>
-                    <a href="/" class="nav-link uppercase">Sell</a>
-                    <a href="/" class="nav-link uppercase nuxt-link-active">Ownership</a>
-                    <a href="/" class="nav-link uppercase nuxt-link-active">The Fraser Experience</a>
+                    <nuxt-link class="nav-link uppercase font-normal" to="/charter">Charter</nuxt-link>
+                    <a href="/" class="nav-link uppercase font-normal">Buy</a>
+                    <a href="/" class="nav-link uppercase font-normal">Sell</a>
+                    <a href="/" class="nav-link uppercase font-normal">Ownership</a>
+                    <a href="/" class="nav-link uppercase font-normal">The Fraser Experience</a>
                 </div>
             </section>
         </nav>

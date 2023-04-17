@@ -1,7 +1,7 @@
 <template>
     <section class="h-screen flex justify-center items-end">
       <TextRevealEffect class="absolute z-20" :autoplay="false" :startAnimation="revealHeading" >
-        <h1 class="text-7xl m-auto max-w-screen-xl text-center uppercase text-white mb-20">
+        <h1 class="font-austin tracking-wide text-9xl m-auto max-w-screen-xl text-center uppercase text-white mb-20">
                   FRASER 
 
           The home of luxury          yachts</h1>

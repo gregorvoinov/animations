@@ -19,9 +19,27 @@ module.exports = {
         "2xl": "6rem",
       },
     },
+    letterSpacing: {
+      normal: '0em',
+      wide: '0.05em',
+      wider: '0.10em',
+      widest: '0.20em'
+    },
+    lineHeight: {
+      tight: "0.9em",
+      close: '1em',
+      snug: '1.25em',
+      normal: '1.5em',
+      relaxed: '1.75em',
+    },
     fontFamily: {
-      anton: "Anton",
-      lato: "Lato",
+      hurme: 'hurme',
+      austin: 'austin'
+    },
+    fontWeight: {
+      light: 300,
+      normal: 400,
+      semibold: 600
     },
     screens: {
       xs: "375px",

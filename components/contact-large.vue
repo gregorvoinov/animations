@@ -23,13 +23,13 @@
                 </div>
                 <div class="flex w-3/4 m-auto justify-between">
                     <div class="flex flex-col items-center ">
-                        <h3 class="text-5xl uppercase mb-10">Find us in</h3>
+                        <h3 class="font-austin tracking-wide text-5xl uppercase mb-10">Find us in</h3>
                         <span class="bg-white h-12 w-52 block mb-8"></span>
                         <p class="">2 QUAI ANTOINE 1ER</p>
                         <p class="text-steel-gray text-sm">Mon-Fri 9am-6pm</p>
                     </div>
                     <div class="flex flex-col items-center ">
-                        <h3 class="text-5xl uppercase mb-10">Contact US</h3>
+                        <h3 class="font-austin tracking-wide text-5xl uppercase mb-10">Contact US</h3>
                         <span class="bg-white h-12 w-52 block mb-8"></span>
                         <p class="">2 QUAI ANTOINE 1ER</p>
                         <p class="text-steel-gray text-sm">Mon-Fri 9am-6pm</p>

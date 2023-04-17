@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'austin';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('~/assets/fonts/austin/AustinCyr-Roman.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'austin';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url('~/assets/fonts/austin/AustinCyr-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'hurme';
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url('~/assets/fonts/hurme/HurmeGeometricSans_No2_3_Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'hurme';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('~/assets/fonts/hurme/HurmeGeometricSans_No2_4_Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'hurme';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url('~/assets/fonts/hurme/HurmeGeometricSans_No2_5_Semibold.otf') format('opentype');
+}

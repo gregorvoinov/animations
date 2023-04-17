@@ -23,7 +23,7 @@ export default defineNuxtConfig({
         lang: "en",
       },
       bodyAttrs: {
-        class: "overflow-x-hidden overflow-y-scroll w-screen text-black-gray select-none",
+        class: "overflow-x-hidden overflow-y-scroll w-screen text-black-gray select-none font-hurme font-light",
       },
     },
     // pageTransition: { name: 'page'},
